@@ -1,42 +1,41 @@
-# PDF ����
+# PDF 处理相关
 pymupdf>=1.23.0
 pdfplumber>=0.10.0
 camelot-py[cv]>=0.11.0
 
-# ����ģ����Ƕ��
+# 文本/句子向量嵌入
 sentence-transformers>=2.2.2
 FlagEmbedding>=1.2.0
 
-# �������ݿ�
+# 向量数据库
 pymilvus>=2.3.0
 
 # MySQL 数据库（对话记忆）
 pymysql>=1.1.0
 
-# ����������
+# 文本检索相关
 rank-bm25>=0.2.2
 elasticsearch>=8.10.0
 jieba>=0.42.1
 
-# LLM ����
+# LLM 大语言模型相关
 openai>=1.0.0
 langchain>=0.1.0
 langchain-community>=0.0.10
 
-# Web ���
+# Web 服务相关
 fastapi>=0.104.0
 uvicorn>=0.24.0
 streamlit>=1.28.0
 requests>=2.31.0
 
-# ���ݴ���
+# 数据处理相关
 pandas>=2.0.0
 numpy>=1.24.0
 pydantic>=2.0.0
 tabulate>=0.9.0
 
-# ���߿�
+# 工具辅助相关
 python-dotenv>=1.0.0
 tqdm>=4.65.0
 loguru>=0.7.0
-
