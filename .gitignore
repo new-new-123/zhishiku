@@ -1,0 +1,32 @@
+# 虚拟环境（若项目使用了虚拟环境）
+venv/
+env/
+.venv/
+zhishiku/
+# Python编译文件（RAG项目多基于Python，必加）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 配置文件（含API密钥、数据库配置等敏感信息）
+.env
+.env.*
+config.yaml
+config.json
+
+# 日志与缓存
+*.log
+logs/
+cache/
+
+# 大型知识库数据（避免上传大文件拖慢仓库）
+data/
+knowledge_base/
+*.db
+*.sqlite3
+chunks/
+volumes/
+# 编辑器配置
+.vscode/
+.idea/
